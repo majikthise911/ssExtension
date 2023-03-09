@@ -28,8 +28,7 @@ const saveKey = () => {
 };
 
 const changeKey = () => {};
-// listeners so we know when the buttons are clicked
-// we are listening to save_key_button and change_key_button
+
 document.getElementById("save_key_button").addEventListener("click", saveKey);
 document
 	.getElementById("change_key_button")
